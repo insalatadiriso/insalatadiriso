@@ -230,11 +230,11 @@ def footer():
     w = width(SERIF, phrase, size, spacing)
     style = face("EvaSerif", SERIF, phrase) + f".s{{font-family:EvaSerif;fill:{BG};letter-spacing:{spacing}px}}"
     repeat = phrase * 6
-    body = f"""<rect y="0" width="1000" height="64" fill="{ORANGE}"/>
-<rect y="0" width="1000" height="10" fill="url(#t2)"/><rect y="54" width="1000" height="10" fill="url(#t2)"/>
-<g><text class="s" x="0" y="42" font-size="{size}">{repeat}</text>
+    body = f"""<rect y="0" width="1000" height="60" fill="{ORANGE}"/>
+<rect y="0" width="1000" height="10" fill="url(#t2)"/><rect y="50" width="1000" height="10" fill="url(#t2)"/>
+<g><text class="s" x="0" y="39" font-size="{size}">{repeat}</text>
 <animateTransform attributeName="transform" type="translate" from="0 0" to="{-w:.1f} 0" dur="9s" repeatCount="indefinite"/></g>"""
-    return svg(1000, 64, "Emergency: build in progress", style, body, tape("t2", 10, ORANGE, "1s"))
+    return svg(1000, 60, "Emergency: build in progress", style, body, tape("t2", 10, ORANGE, "1s"))
 
 
 def main():
