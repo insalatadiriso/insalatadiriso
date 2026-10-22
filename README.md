@@ -17,7 +17,7 @@
   <img src="assets/operations.svg" alt="Operation 01 Monsters, operation 02 SuspiciousDog, operation 03 Saturday Company" width="100%">
 </p>
 
-| | | |
+| Operation | Briefing | Access |
 |---|---|---|
 | **[Monsters](https://github.com/Saturday-Company/monsters)** | A local, provider-agnostic agentic hub: an orchestrator and a squad of little monsters on your machine. | [getmonsters.dev](https://getmonsters.dev) |
 | **[SuspiciousDog](https://github.com/Saturday-Company/SuspiciousDog)** | Sniffs your AI agent transcripts for what actually works. He doesn't trust your plugins. | `sdog sniff` |
